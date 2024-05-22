@@ -3,7 +3,7 @@ name: Test and deploy
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install pnpm 
-        run: npm install -g pnpm
+        run: npm install -g pnpm`
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
