@@ -7,7 +7,8 @@
     "dev": "pnpm --filter @cz-element/play dev",
     "docs:dev": "pnpm --filter @cz-element/docs dev",
     "docs:build": "pnpm --filter @cz-element/docs build",
-    "docs:preview": "pnpm --filter @cz-element/docs preview"
+    "docs:preview": "pnpm --filter @cz-element/docs preview",
+    "test": "echo todo"
   },
   "keywords": [],
   "author": "",
